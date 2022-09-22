@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_table_ceniks",
+  "info": {
+    "displayName": "Cenik",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nazev": {
+      "type": "string"
+    },
+    "Objem": {
+      "type": "string"
+    },
+    "cena_bez_dph": {
+      "type": "string"
+    },
+    "cena_s_dph": {
+      "type": "string"
+    },
+    "odkaz_na_produkt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "hlavni_strana_podnadpisy",
+  "info": {
+    "singularName": "hlavni-strana-podnadpis",
+    "pluralName": "hlavni-strana-podnadpisy",
+    "displayName": "Hlavni strana - podnadpis"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}

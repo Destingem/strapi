@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "provozni_doby",
+  "info": {
+    "singularName": "provozni-doba",
+    "pluralName": "provozni-doby",
+    "displayName": "Provozní doba"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "radek_tabulky": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.provozni-doba"
+    }
+  }
+}

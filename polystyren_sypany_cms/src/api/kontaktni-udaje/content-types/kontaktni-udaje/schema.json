@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontaktni_udajes",
+  "info": {
+    "singularName": "kontaktni-udaje",
+    "pluralName": "kontaktni-udajes",
+    "displayName": "Kontaktní údaje",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "telefon_1": {
+      "type": "string"
+    },
+    "telefon_2": {
+      "type": "string"
+    },
+    "email_1": {
+      "type": "email"
+    },
+    "email_2": {
+      "type": "email"
+    },
+    "dalsi_udaje": {
+      "type": "richtext"
+    },
+    "adresa_provozovny": {
+      "type": "text"
+    },
+    "korespondencni_adresa": {
+      "type": "text"
+    },
+    "IC": {
+      "type": "biginteger"
+    },
+    "DIC": {
+      "type": "string"
+    },
+    "nazev_spolecnosti": {
+      "type": "text"
+    }
+  }
+}

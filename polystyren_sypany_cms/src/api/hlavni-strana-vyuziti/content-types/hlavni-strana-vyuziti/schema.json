@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "hlavni_strana_vyuzitis",
+  "info": {
+    "singularName": "hlavni-strana-vyuziti",
+    "pluralName": "hlavni-strana-vyuzitis",
+    "displayName": "Hlavní strana - Využití",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Stavebnictvi": {
+      "type": "richtext"
+    },
+    "Nabytkarsky_prumysl": {
+      "type": "richtext"
+    },
+    "Zahradkarstvi": {
+      "type": "richtext"
+    },
+    "Zabavni_prumysl": {
+      "type": "richtext"
+    },
+    "Dalsi": {
+      "type": "richtext"
+    }
+  }
+}

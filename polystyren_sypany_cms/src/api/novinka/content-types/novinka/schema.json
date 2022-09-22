@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novinky",
+  "info": {
+    "singularName": "novinka",
+    "pluralName": "novinky",
+    "displayName": "Novinky",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nadpis": {
+      "type": "string"
+    },
+    "Obsah": {
+      "type": "richtext"
+    },
+    "Datum": {
+      "type": "date"
+    },
+    "Priloha": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Obrazek": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

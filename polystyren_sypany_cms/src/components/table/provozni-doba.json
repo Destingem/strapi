@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_table_provozni_dobas",
+  "info": {
+    "displayName": "Provozní doba",
+    "icon": "business-time"
+  },
+  "options": {},
+  "attributes": {
+    "Den": {
+      "type": "string"
+    },
+    "Oteviraci_doba": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ceniky",
+  "info": {
+    "singularName": "cenik",
+    "pluralName": "ceniky",
+    "displayName": "Cenik",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "radek_tabulky": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.cenik"
+    },
+    "standardni_cenik_x_zapujcka_stroje": {
+      "type": "boolean"
+    }
+  }
+}
